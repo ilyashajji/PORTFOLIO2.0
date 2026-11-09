@@ -4,9 +4,10 @@ import { LanguageProvider } from './contexts/LanguageContext';
 import Header from './components/Header';
 import Hero from './sections/Hero';
 import About from './sections/About';
-import Education from './sections/Education';
-import Experience from './sections/Experience';
+import Projects from './sections/Projects';
 import Skills from './sections/Skills';
+import Experience from './sections/Experience';
+import Education from './sections/Education';
 import Languages from './sections/Languages';
 import Contact from './sections/Contact';
 import Footer from './components/Footer';
@@ -16,15 +17,16 @@ function App() {
   return (
     <ThemeProvider>
       <LanguageProvider>
-        <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50 dark:from-slate-900 dark:to-slate-800 transition-colors duration-300">
+        <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50/20 to-slate-100 dark:from-slate-950 dark:via-slate-900 dark:to-slate-950 text-slate-800 dark:text-slate-100 transition-colors duration-300 antialiased selection:bg-blue-500 selection:text-white">
           <ParticleBackground />
           <Header />
           <main>
             <Hero />
             <About />
-            <Education />
-            <Experience />
+            <Projects />
             <Skills />
+            <Experience />
+            <Education />
             <Languages />
             <Contact />
           </main>

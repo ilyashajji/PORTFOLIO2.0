@@ -11,59 +11,115 @@ interface LanguageContextType {
 const translations = {
   en: {
     'nav.about': 'About',
-    'nav.education': 'Education',
-    'nav.experience': 'Experience',
+    'nav.projects': 'Projects',
     'nav.skills': 'Skills',
+    'nav.experience': 'Experience',
+    'nav.education': 'Education',
     'nav.languages': 'Languages',
     'nav.contact': 'Contact',
-    'hero.title': 'Full Stack Web Developer',
-    'hero.subtitle': '4th-Year Computer Engineering Student (IIR – EMSI)',
-    'hero.tagline': 'Building efficient, user-friendly web solutions | Open to new opportunities',
-    'hero.downloadCV': 'Download CV',
+
+    'hero.badge': 'Available for End-of-Study Internship (PFE) • Feb 2027',
+    'hero.badge.detail': 'Data Engineering, Agentic AI or Data Science (4-6 months)',
+    'hero.title': 'Future Software Engineer | Data Engineering & AI',
+    'hero.subtitle': 'EMSI Casablanca (Class of 2027) • Agentic AI & Big Data Specialist',
+    'hero.tagline': 'Designing resilient distributed data pipelines, deterministic financial analytics engines, and autonomous multi-agent LLM systems.',
+    'hero.downloadCV': 'Download Resume (FR)',
+    'hero.contactMe': 'Contact for PFE',
+    'hero.viewCard': 'Business Card',
+
     'about.title': 'About Me',
-    'about.description': 'Passionate Computer Engineering student with hands-on experience in full-stack development. I thrive on solving complex problems and creating innovative web solutions that make a real impact.',
-    'about.teamwork': 'Teamwork & Collaboration',
-    'about.problemSolving': 'Problem-Solving & Innovation',
-    'about.fullStack': 'Full Stack Development Expertise',
-    'education.title': 'Education',
+    'about.description': 'Future Software Engineer specializing in Data Engineering & Applied AI at EMSI Casablanca. Passionate about building robust ETL/ELT streaming pipelines, high-impact predictive models, and production-grade multi-agent architectures (LangGraph, RAG, Pydantic).',
+    'about.pfeBadge': 'Looking for an End-of-Study Internship (PFE) of 4 to 6 months starting February 2027 in Data Engineering, AI or Data Science.',
+    'about.pillars.ai': 'Agentic AI & LLM Systems',
+    'about.pillars.ai.desc': 'Multi-agent orchestration with LangGraph, deterministic guardrails, Pydantic validation, and custom RAG architectures.',
+    'about.pillars.data': 'Data Engineering & Big Data',
+    'about.pillars.data.desc': 'High-throughput pipelines, Lakehouse design, PySpark, Kafka streaming, MinIO S3, and modern dimensional modeling.',
+    'about.pillars.arch': 'Production & System Design',
+    'about.pillars.arch.desc': 'Clean Code, containerized microservices with Docker, SAP S/4HANA enterprise integration, and agile delivery.',
+
+    'projects.title': 'Featured Projects',
+    'projects.subtitle': 'Real-world implementations in Agentic AI, Predictive Modeling, and Distributed Big Data',
+    'projects.viewCode': 'Code',
+    'projects.viewDemo': 'Demo / Details',
+
     'experience.title': 'Professional Experience',
-    'skills.title': 'Technical Skills',
-    'languages.title': 'Languages',
+    'experience.subtitle': 'Track record in financial AI automation, enterprise databases, and software engineering',
+
+    'skills.title': 'Technical Competencies',
+    'skills.subtitle': 'Specialized stack spanning Data Engineering, Agentic AI, Cloud DevOps, and Core Programming',
+
+    'education.title': 'Education & Certifications',
+    'education.subtitle': 'Academic excellence and internationally recognized industry credentials',
+    'education.certsTitle': 'Key Professional Certifications',
+
+    'languages.title': 'Languages & Communication',
+
     'contact.title': 'Get In Touch',
-    'contact.description': 'Let\'s discuss how we can work together on your next project.',
+    'contact.subtitle': 'Discussing PFE Opportunities & Collaborative Engineering',
+    'contact.description': 'I am actively seeking my 4-6 month graduation internship (PFE) starting February 2027 in Data Engineering, AI, or Data Science. Let\'s connect!',
     'contact.name': 'Your Name',
     'contact.email': 'Your Email',
     'contact.message': 'Your Message',
-    'contact.send': 'Send Message',
-    'footer.rights': '© 2024 Ilyas Hajji. All rights reserved.'
+    'contact.send': 'Send via WhatsApp',
+    'contact.availability': 'Ready to relocate or work hybrid in Morocco / Worldwide',
+
+    'footer.rights': '© 2026 Ilyas Hajji. All rights reserved. Data Engineering & Agentic AI.'
   },
   fr: {
     'nav.about': 'À Propos',
-    'nav.education': 'Formation',
-    'nav.experience': 'Expérience',
+    'nav.projects': 'Projets',
     'nav.skills': 'Compétences',
+    'nav.experience': 'Expérience',
+    'nav.education': 'Formation',
     'nav.languages': 'Langues',
     'nav.contact': 'Contact',
-    'hero.title': 'Développeur Full Stack',
-    'hero.subtitle': 'Étudiant en 4ème année Génie Informatique (IIR – EMSI)',
-    'hero.tagline': 'Créer des solutions web efficaces et conviviales | Ouvert aux nouvelles opportunités',
-    'hero.downloadCV': 'Télécharger CV',
+
+    'hero.badge': 'En recherche de Stage PFE • Février 2027',
+    'hero.badge.detail': 'Data Engineering, IA Agentique ou Data Science (4 à 6 mois)',
+    'hero.title': 'Futur Ingénieur d’État en Génie Logiciel | Data & IA',
+    'hero.subtitle': 'EMSI Casablanca (Promo 2027) • Spécialisation Data Engineering & IA',
+    'hero.tagline': 'Conception de pipelines de données résilients, de moteurs analytiques financiers déterministes et de systèmes multi-agents autonomes.',
+    'hero.downloadCV': 'Télécharger CV (FR)',
+    'hero.contactMe': 'Me contacter pour un PFE',
+    'hero.viewCard': 'Voir ma carte',
+
     'about.title': 'À Propos de Moi',
-    'about.description': 'Étudiant passionné en Génie Informatique avec une expérience pratique en développement full-stack. Je m\'épanouis en résolvant des problèmes complexes et en créant des solutions web innovantes qui ont un impact réel.',
-    'about.teamwork': 'Travail d\'Équipe & Collaboration',
-    'about.problemSolving': 'Résolution de Problèmes & Innovation',
-    'about.fullStack': 'Expertise Développement Full Stack',
-    'education.title': 'Formation',
+    'about.description': 'Futur ingénieur d’État en Génie Logiciel spécialisé en Data Engineering et IA à l’EMSI Casablanca. Passionné par l’ingénierie des données distribuées, les modèles prédictifs haute performance et les architectures multi-agents d\'avant-garde (LangGraph, RAG, Pydantic).',
+    'about.pfeBadge': 'À la recherche d’un stage de Fin d’Études (PFE) de 4 à 6 mois à partir de février 2027 en Data Engineering, IA ou Data Science.',
+    'about.pillars.ai': 'IA Agentique & Systèmes LLM',
+    'about.pillars.ai.desc': 'Orchestration multi-agents avec LangGraph, garde-fous déterministes, validation de schéma Pydantic et RAG hybride.',
+    'about.pillars.data': 'Data Engineering & Big Data',
+    'about.pillars.data.desc': 'Pipelines de données robustes, Lakehouse, streaming Kafka, PySpark, MinIO S3, modélisation et data quality.',
+    'about.pillars.arch': 'Production & Architecture',
+    'about.pillars.arch.desc': 'Clean Code, conteneurisation Docker, intégration de flux d\'entreprise SAP S/4HANA et méthodologies Agile/Scrum.',
+
+    'projects.title': 'Projets Phares',
+    'projects.subtitle': 'Réalisations concrètes en IA Agentique, Modélisation Prédictive et Big Data distribué',
+    'projects.viewCode': 'Code',
+    'projects.viewDemo': 'Démo / Détails',
+
     'experience.title': 'Expérience Professionnelle',
+    'experience.subtitle': 'Parcours en automatisation d\'IA financière, bases de données d\'entreprise et génie logiciel',
+
     'skills.title': 'Compétences Techniques',
-    'languages.title': 'Langues',
+    'skills.subtitle': 'Stack de pointe articulée autour du Data Engineering, de l\'IA générative/agentique et du Cloud',
+
+    'education.title': 'Formations & Certifications',
+    'education.subtitle': 'Cursus d\'ingénierie d\'excellence et certifications professionnelles internationales',
+    'education.certsTitle': 'Certifications Professionnelles Clés',
+
+    'languages.title': 'Langues & Communication',
+
     'contact.title': 'Prenons Contact',
-    'contact.description': 'Discutons de la façon dont nous pouvons travailler ensemble sur votre prochain projet.',
+    'contact.subtitle': 'Discutons d’opportunités de PFE & de collaborations techniques',
+    'contact.description': 'Je suis activement à la recherche de mon stage de fin d’études (PFE) de 4 à 6 mois dès février 2027 en Data Engineering, IA ou Data Science. Échangeons ensemble !',
     'contact.name': 'Votre Nom',
     'contact.email': 'Votre Email',
     'contact.message': 'Votre Message',
-    'contact.send': 'Envoyer le Message',
-    'footer.rights': '© 2024 Ilyas Hajji. Tous droits réservés.'
+    'contact.send': 'Envoyer via WhatsApp',
+    'contact.availability': 'Disponible à Casablanca ou en mobilité / télétravail',
+
+    'footer.rights': '© 2026 Ilyas Hajji. Tous droits réservés. Data Engineering & Agentic AI.'
   }
 };
 
@@ -78,7 +134,7 @@ export const useLanguage = () => {
 };
 
 export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
-  const [language, setLanguage] = useState<Language>('en');
+  const [language, setLanguage] = useState<Language>('fr'); // Default to French as requested
 
   const t = (key: string): string => {
     return translations[language][key as keyof typeof translations['en']] || key;
